@@ -1,0 +1,38 @@
+body{
+        background-color: rgb(230, 234, 237);
+
+    }
+    h1{
+        font-family: Arial;
+        color:rgb(0, 0, 14);
+    }
+    .list-cointainer{
+        width:300px;
+        margin:50px;
+        padding:60px;
+        background-color:rgb(129, 167, 237);
+        background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/disp/496ecb14589707.562865d064f9e.png');
+
+
+    
+    }
+ h2{
+    color:blue;
+ }
+ .login-container{
+    background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/disp/496ecb14589707.562865d064f9e.png');
+    width:300px;
+    padding:60px;
+    margin:50px;
+
+
+ }
+
+.enter{
+    background-color: burlywood;
+    width:200px;
+    margin:10px;
+    font-size:30px;
+    font-weight: bold;
+    color:black;
+}

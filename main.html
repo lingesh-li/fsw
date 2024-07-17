@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<head>
+    <title>
+    button and table
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>BUTTON:</h1>
+<CENTER>
+    <H2>SIMPLE BUTTON</H2>
+
+<div>
+    <button class="enter">Enter</button>
+</div>
+</CENTER>
+<div class="radio-button"></div>
+<h1>RADIO BUTTON:</h1>
+<center>
+<h2><P>radio button for gender</P></h2>
+<div>
+    <input type="radio" id="male" name="gender"  value="male">
+    <label for="male">male</label>
+</div>
+<br>
+<div>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">female</label>
+</div>
+<br>
+<div>
+    <input type="radio" id="others"  name="gender" value="others" >
+    <label for="others">others</label>
+</div>
+</center>
+<div>
+
+    <h1>LOGIN BUTTON:</h1>
+    <center>
+    <H2>submit button using login</H2>
+<div class="login-container">
+        <h1>Student Login</h1>
+        <form action="/login_form" method="POST"> 
+            <input type="text" name="username" placeholder="Username" required><br><br>
+            <input type="password" name="password" placeholder="Password" required><br><br>
+             <button type="submit">Login</button>
+        </form>
+</div>
+</center>
+<div class="button-cointainer">
+    <h1>LINKING PAGE BUTTON</h1><center>
+    <h2>submit buttton which link another page</h2>
+    <form action="table.html" method="post">
+    <input type="submit" value="submit">
+    </form>
+    </div>
+</center>
+<div>
+   <H1>CHECKBOX :</H1><center>
+
+   <form>
+    <h2>select course </h2>
+    <input type="checkbox" name="Fullstack" value="yes">fullstack<BR>
+    <input type="checkbox" name="Devops" value="yes">Devops<BR>
+    <input type="checkbox" name="UI/UX" value="yes">UI/UX<BR>
+   </form>
+</div></center>
+<div>
+    <h1> BUTTON REDIRECT ANOTHER PAGE:</h1>
+<CENTER>
+    <H2>Button redirect another page using href</H2>
+    <button  onclick="window.location.href = 'table1.html';">Enter</button>
+</CENTER>
+</div>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
